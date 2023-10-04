@@ -29,4 +29,3 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
 ## 動作例
 <!-- ISSUE_LIST_START -->
 <!-- ISSUE_LIST_END -->
-
