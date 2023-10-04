@@ -15,7 +15,7 @@ with open('../../../README.md', 'r') as f:
 # Issueリストの生成
 issue_list = [f"- [{issue['title']}]({issue['html_url']})" for issue in issues]
 # Issueリストの最後に現在時刻を追加
-issue_list.append(f"<!-- github actions: Updated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}-->")
+issue_list.append(f"<!-- github actions: Updated on {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}-->")
 print('----------------')
 print(issue_list)
 
