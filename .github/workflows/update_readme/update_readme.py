@@ -1,24 +1,21 @@
 import os
 import json
+import datetime
 
 # 環境変数をからREPOSITORYを取得
 repository = os.environ.get('REPOSITORY')
 
 # repositoryから、githubAPIを用いてIssueのリストを取得
 issues = json.loads(os.popen(f'curl -s https://api.github.com/repos/{repository}/issues').read())
-print(issues)
-for issue in issues:
-    print("----")
-    print(issue['title'])
-    print(issue)
 
 # README.mdの読み込み
 with open('../../../README.md', 'r') as f:
     readme_content = f.read()
-    print(readme_content)
 
 # Issueリストの生成
 issue_list = [f"- [{issue['title']}]({issue['html_url']})" for issue in issues]
+# Issueリストの最後に現在時刻を追加
+issue_list.append(f"<!-- github actions: Updated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}-->")
 print('----------------')
 print(issue_list)
 
