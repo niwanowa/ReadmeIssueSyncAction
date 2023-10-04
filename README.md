@@ -30,7 +30,7 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
 - issueが再オープンされたとき
 
 
-
+## 動作例
 <!-- ISSUE_LIST_START -->
 - [workflowtest！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/3)
 - [READMEに必要な設定を記載する。](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/2)
