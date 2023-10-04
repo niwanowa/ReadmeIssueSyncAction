@@ -18,7 +18,9 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
 4. README.mdのIssueのリストを表示させたい場所に以下の記述を追加する。
     ```
     <!-- ISSUE_LIST_START -->
-    <!-- ISSUE_LIST_END -->
+- [workflowtest！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/3)
+<!-- github actions: Updated on 2023-10-04 13:00:37 UTC-->
+<!-- ISSUE_LIST_END -->
     ```
 完了!
 
@@ -35,4 +37,3 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
 - [workflowtest！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/3)
 - [READMEに必要な設定を記載する。](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/2)
 <!-- github actions: Updated on 2023-10-04 08:25:15 UTC-->
-<!-- ISSUE_LIST_END -->
