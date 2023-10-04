@@ -5,6 +5,7 @@ on:
       - opened
       - edited
       - closed
+      - reopened
 
 env:
   GH_USERNAME: ${{ secrets.GH_USERNAME }}
