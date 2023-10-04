@@ -16,6 +16,10 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
     - REPOSITORY : 対象リポジトリ 例: niwanowa/ReadmeIssueSyncAction
     ![SS](/docs/Secrets.png)
 4. README.mdのIssueのリストを表示させたい場所に以下の記述を追加する。
+```md
+<!-- ISSUE_LIST_START -->
+<!-- ISSUE_LIST_END -->
+```
 完了!
 
 ## 使い方
