@@ -28,4 +28,8 @@ issuesとREADME.mdを同期させ、READMEに一覧を表示させる。
 
 ## 動作例
 <!-- ISSUE_LIST_START -->
+- [workflowtest！！！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/5)
+- [workflowtest！！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/4)
+- [workflowtest！](https://github.com/niwanowa/ReadmeIssueSyncAction/issues/3)
+<!-- github actions: Updated on 2023-10-04 13:10:23 UTC-->
 <!-- ISSUE_LIST_END -->
